@@ -1,0 +1,68 @@
+.main-container {
+   background-color: white;
+   width: 450px;
+   height: 450px;
+   opacity: 85%;
+   border-radius: 3%;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+   margin-top: 4%;
+   margin-bottom: auto;
+   text-align: center;
+   padding: 15px 0 0 0;
+}
+.form {
+   width: 100%;
+    padding: 10px 0 10px 0;
+    margin: 20px 0 0 0;
+}
+.login-form {
+    margin: 30px 0 0 0;
+    padding: 20px 0 20px 0;
+}
+.form input,
+.login-form input {
+   display: flex;
+   border: none;
+   margin: 0px 0 15px;
+  background: #f2f2f2;
+   font-size: 14px;
+   font-family: sans-serif;
+   outline: 0;
+   padding: 15px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.form button
+ {
+  width: 100%;
+   padding: 15px;
+  margin: 20px 0 10px 0;
+  border: none;
+  background: #16191b;
+   font-size: 17px;
+  font-family: sans-serif;
+  color: white;
+   opacity: none;
+}
+.form button:hover,
+.login-form button:hover {
+   cursor: pointer;
+   background-color: #325b7c;
+}
+.button1{
+    background-color: #4CAF50; 
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .datePicker{
+     width: 20px;
+  }
